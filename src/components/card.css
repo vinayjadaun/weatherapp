@@ -1,0 +1,42 @@
+.card-container{
+    height:370px;
+    width: 200px;
+    border:rgb(5, 5, 5) solid 1px;
+    background-color:rgb(233, 169, 169);
+    position:relative;
+    margin:50px 25px 50px 35px;
+    padding:20px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    
+}
+.card-id{
+    font-size:20px;
+    font-family: 'Rajdhani', sans-serif;
+    padding:0px 120px 10px 0px;
+}
+.card-detail
+{
+font-size:10px;
+font-family: 'Rajdhani', sans-serif;
+
+height:100px;
+}
+.card-topic{
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    padding:1px 10px 0px 10px ;
+
+}
+.card-read-more{
+    font-size:9px;
+    font-family: 'Rajdhani', sans-serif;
+    cursor:pointer;
+}
+.card-img{
+    height: 120px;
+    padding-top:10px;
+
+
+    
+}

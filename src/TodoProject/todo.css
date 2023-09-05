@@ -1,0 +1,153 @@
+.body{
+    background-color:rgb(0, 8, 37);
+    height:200vh;
+    width:100vw;
+    display:flex;
+    /* align-items:center; */
+    justify-content:center;
+
+}
+.Logo{
+ 
+    color:white;
+  
+   
+}
+.logoimg-container{
+    margin-top:35px;
+    height:250px;
+    width:300px;
+    border-radius:50%;
+   
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+}
+.logoimg{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:2px solid rgb(15, 15, 15);
+    transition:0.5s;
+}
+.logoimg:hover{
+    border:2px solid rgb(0, 238, 255);
+
+}
+.logotext{
+    font-size:20px;
+    margin-top:20px;
+    padding-left:65px;
+    margin-bottom:20px;
+   
+}
+.items{
+    height:30px;
+    width:300px;
+ 
+    background-color:rgb(0, 0, 154);
+    margin-top:20px;
+    border-radius:6px;
+    display:flex;
+    justify-content:space-between;
+    transition:0.3s;
+    font-family: 'Play', sans-serif;
+    padding-top:3px;
+
+}
+.items:hover{
+    background-color:white;
+    color:black;
+    
+
+}
+
+
+.item-box{
+    margin-left:25px;
+    padding-top:2px;
+
+    width:200px;
+
+}
+.add-items{
+    display:flex;
+    justify-content:space-between;
+  
+    background-color:aliceblue;
+    color:black;
+    border-radius:6px;
+    margin-top:10px;
+}
+.input{
+    background-color:aliceblue;
+    
+    height:30px;
+    width:250px;
+    color:rgb(0, 0, 0);
+    border:0px rgb(13, 1, 41);
+    border-radius:6px;
+    font-size:15px;
+    margin-right:px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-left:20px;
+    outline:none;
+    font-weight:500;
+    text-decoration:wavy;
+    font-family: 'Play', sans-serif;
+}
+.fa-solid{
+    padding-top:7px;
+    padding-right:15px;
+}
+.fa-solid:hover{
+    color:rgb(0, 255, 0);
+}
+.fa-regular{
+    padding-top:7px;
+    padding-right:15px;
+}
+.fa-regular:hover{
+    color:rgb(255, 0, 0);
+}
+.clearContainer{
+    height:50px;
+    width:300px;
+   
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.clear{
+    height:30px;
+    width:100px;
+    background-color:rgb(255, 255, 255);
+    color:black;
+    padding-top:8px;
+    padding-left:6px;
+    transition:0.4s;
+    font-family: 'Play', sans-serif;
+    border-radius:4px;
+   
+
+}
+.clear:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 43, 170);
+   
+    
+}
+.credit-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    font-family: 'Play', sans-serif;
+}
+.credit{
+    font-family: 'Play', sans-serif;
+}
