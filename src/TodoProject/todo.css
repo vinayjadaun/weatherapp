@@ -54,6 +54,7 @@
     transition:0.3s;
     font-family: 'Play', sans-serif;
     padding-top:3px;
+    overflow:hidden;
 
 }
 .items:hover{

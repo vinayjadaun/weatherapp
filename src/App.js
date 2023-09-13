@@ -4,6 +4,8 @@ import './App.css';
 import Carddata from './components/API/cardapi';
 import Navbar from './components/Navbar';
 import Todo from './TodoProject/todo.js';
+import Mausam from './projectReal/mausam';
+
 
 
 
@@ -43,8 +45,8 @@ const App=()=> {
       <div className="Appcard">
       <Card CardData={CardData}/>
       </div> */}
-      <Todo/>
-      
+      {/* <Todo/> */}
+      <Mausam/>
       
     </div>
   );
